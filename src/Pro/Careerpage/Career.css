@@ -1,0 +1,20 @@
+.blog-div{
+    font-size: 45px;
+    color: rgb(252, 248, 248);
+    border-width: 1px;
+    border-radius: 2rem;
+    padding: 10px;
+    border-style: double;
+    box-shadow: rgb(238, 218, 130);
+    box-sizing: border-box;
+}
+.blog-contain{
+    background-color: rgb(228, 125, 202);
+    padding: 15px;
+}
+.blog-col{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin:  0, auto;
+}

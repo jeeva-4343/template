@@ -1,0 +1,17 @@
+.blog-di{
+    font-size: 45px;
+    color: rgb(252, 248, 248);
+    border-radius: 2rem;
+    border-style: solid;
+    margin: 0,auto;
+    justify-content: center;
+    text-align: center;   
+}
+.blog-container{
+    background-color: rgb(194, 134, 134);
+    padding: 15px;
+}
+.blogg-para{
+    font-size: 15px;
+    padding: 10px;
+}

@@ -1,0 +1,198 @@
+.Container3{
+    background-color: #EBE6FF;
+    margin-top: -1px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.Fstdiv{
+    border-radius: 18rem;
+    height: 560px;
+    width: 65%;
+    background-image: url('../images/girl.jpg');
+    background-position: center;
+    background-repeat: no-repeat ;
+    margin: 0 auto;
+}
+.head{
+  margin-bottom: 20px;
+  padding: 20px;
+  font-size: 32px;
+}
+.wa{
+    padding: 0px !important;
+}
+.Emptycircle{
+    /* background-color: red; */
+    /* height: 200px; */
+    position: absolute;
+    padding: 30px;
+    border-radius: 3rem;
+    margin-left: 292px !important ;
+    margin-top: 35px;
+    border-color: #206CFF !important;
+    border-style: solid;
+    border-width: thin;
+}
+.Hidden{
+    display: none;
+}
+.move{
+    position: absolute;
+    padding: 35px;
+    border-radius: 3rem;
+    margin-left: 12px !important ;
+    margin-top: 425px;
+    border-color: #F06C7A !important;
+    border-style: solid;
+    border-width: thin;
+    
+}
+.Smalldiv{
+    border-radius: 1rem;
+    background-color: white;
+    width: 65%;
+    padding: 15px;
+    margin-bottom: 15px; 
+}
+.xsmalldiv2{
+    margin-left: 100px;
+    font-size: 16px;
+}
+.secondpara{
+    font-size: 12.2px;
+    line-height: 22px;
+    color: #8c8e91;
+}
+.Svg{
+    position: absolute !important;
+    height: 82px !important;
+    width: 8%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;   
+}
+.iconfordiv{
+    position: absolute !important;
+    color: white;
+    margin-top: 22px;
+    margin-left: 14px;
+    /* padding: 10px; */
+}
+.pinterest{
+    position: absolute;
+    border-radius: 3rem;
+    background-color: #3AB094;
+    fill: white;
+    padding: 10px;
+    margin-left: -20px !important ;
+    margin-top: 10px;
+}
+.media{
+    position: absolute;
+    border-radius: 3rem;
+    margin-left: 300px;
+    fill: #206CFF;
+    background-color: #D9CAFE;
+    padding: 5px;
+    margin-top: 30px;
+    color: 206CFF;
+}
+.ethernet{
+    position: absolute;
+    border-radius: 3rem;
+    margin-top: 420px;
+    padding: 10px;
+    background-color: #FCE2E4;
+    fill: #F06C7A;
+    margin-left: 20px;
+}
+.Fourthrow{
+    margin-right: 0 !important;
+}
+.circledown{
+    clip-path:circle(45% at 50% 100%);
+    background-color: #aeacb3;
+    height: 300px;
+    width: 300px;
+    position: absolute !important;
+    margin-left: 650px;
+    margin-top:-94px;
+}
+
+@media(max-width:320px){
+    .Smalldiv{
+        width: auto;
+    }
+}
+@media(max-width:425px){
+    .Smalldiv{
+        width: auto;
+    }
+}
+@media(min-width:430px) and (max-width:500px)
+{
+    .xsmalldiv2{
+        font-size: 20px;
+    }
+    .secondpara{
+        font-size: 16px;
+    }
+    .Secdiv{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+@media(max-width:768px){
+    .Svg{
+        display: none;
+    }
+    .Fourthrow{
+        margin-left: auto !important;
+    }
+}
+@media (min-width:1024px)
+{
+    .Fstdiv{
+        margin-left: 200px !important;
+        height: 600px;
+    }
+    .ethernet{
+        margin-top: 485px;
+    }
+    .wa{
+        margin-top: -80px;
+    }
+    .move{
+        margin-top: 490px;
+    }
+    .media{
+        margin-left: 320px;
+        margin-top: 20px;
+    }
+    .Emptycircle{
+        margin-left: 313px !important;
+        margin-top: 25px;
+    }
+}
+@media(max-width:1024px){
+    .media{
+        display: none;
+        margin-left: 150px;
+        margin-top: 5px;
+        height: auto;
+        width: auto;
+        padding: 5px ;
+    }
+    .Emptycircle{
+    display: none;
+    }
+    .move{
+        display: none;
+    }
+    .head{
+        margin-left:  10 !important;
+    }
+    .Smalldiv{
+        width: auto;
+    }
+}

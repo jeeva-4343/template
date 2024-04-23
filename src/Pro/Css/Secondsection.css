@@ -1,0 +1,89 @@
+.Servicecontainer{
+    background-color: #F2ECFF;
+    padding-bottom: 30px;
+}
+.Servicecard{
+    border-radius: 1rem;
+    border: none;
+}
+.Sec-2-sec-row{
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.cardimg {
+    width: 17%;
+    margin-left: 20px;
+    margin-top: 25px; 
+    position: absolute;   
+} 
+.cardbtn{
+    border-radius: 2rem;
+    color: #F1EEFF;
+    border: none;
+    font-size: large;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.crdtext{
+    color: rgb(150, 140, 140);
+}
+  .svgimg{
+    height: 92px;
+    width: 42%;
+    position: relative;
+  }
+  .wave-img{
+    margin-top: -20px;
+    padding-right: -5px;
+  }
+
+.circleright{
+    clip-path:circle(50.2% at 88% 50%);
+    background-color: #EBE6FF;
+    height: 700px;
+    width: 570px;
+    position: absolute;
+    margin-left: 765px;
+    margin-top: -110px;
+
+}
+.circleleft{
+    clip-path:circle(35% at 20% 50%);
+    background-color: #EBE6FF;
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    margin-top: -250px;
+}
+@media (min-width:430px) and (max-width:500px)
+{
+    .cardimg{
+       
+    }
+    .svgimg{
+        height: 100px;
+        width: 35%;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .Servicecard  {
+      margin: 0 auto;
+      margin-top: 20px;
+    }
+  }
+@media (max-width:1024px){
+    .circleleft{
+        display: none !important;
+    }
+    .circleright{
+        display: none;
+    }
+}
+@media (min-width:1025px){
+    .cardimg {
+        font-size: large;
+    }
+}

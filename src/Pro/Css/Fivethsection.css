@@ -1,0 +1,81 @@
+.Container5{
+    background-color: #793CFB;
+    padding: 40px;
+    margin-top: -1px;
+    padding-top: 0px;
+}
+.Fifthrow{
+    color: white;
+}
+.Emppara{
+    color: rgb(204, 193, 230);
+}
+.Contentrow{
+    text-align: left;
+    margin-left: 170px;
+}
+.piccol{
+    /* margin: 5px; */
+    border-radius: 10rem;
+    background-color: #8451f1;
+    width: 90%;
+    /* padding: 5px;   */
+}
+.Picrow{
+    justify-content: center;
+    align-items: center;
+}
+.pic1{
+    background-image: url('../images//Marketting/Marketting-1.png');
+    background-repeat: no-repeat;
+    height: 400px;
+    background-position: bottom;
+    margin-top: 100px;
+}
+.pic2{
+    background-image: url('../images/Marketting/Marketting-2.png');
+    background-repeat: no-repeat;
+    height: 400px;
+    background-position: top;
+    margin-top: 10px;
+
+}
+.pic3{
+    background-image: url('../images/Marketting/Marketting-3.png');
+    background-repeat: no-repeat;
+    height: 400px;
+    background-position: bottom;
+    margin-top: -90px;
+}
+.Empname{
+    text-align: center;
+    align-items: center;
+    color: white;
+    margin-top: 20px;
+}
+@media (max-width:425px)
+{
+    .Contentrow{
+    margin: auto;
+    }
+    .piccol{
+        margin-top: auto;
+        width: 100% !important;
+    }
+    
+}
+@media(min-width:430px) and (max-width:500px)
+{
+    .Contentrow{
+        margin-left: 0px !important;
+    }
+    .pic1{
+        margin-top: 0px;
+    }
+    .pic2{
+        margin-top: 0px;
+    }
+    .pic3{
+        margin-top: 0px;
+    }
+}

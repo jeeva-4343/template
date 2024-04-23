@@ -1,0 +1,377 @@
+
+.rowhro{
+    justify-content: center;
+    align-items: center;
+}
+
+/* First div */
+.firstdiv{
+    margin-top: -100px;
+}
+.fsthead{
+    background-color: #EBE6FF;
+    border-radius:2rem;
+    color: #793CFB;
+    font-size: larger;
+    margin-left: 4px;
+    padding:10px;
+    display: inline;
+    font-weight: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+.secondhead{
+  font-size: 35px;
+}
+.herobtn{
+    margin: 10px;
+    border-radius: 2rem;
+    border: none;
+    height: 40px;
+    font-size: 15px;
+}
+
+/* Second div */
+.seconddiv{
+    height: 600px;
+    width: 60%;
+    border-radius: 15rem;
+    background-color: #793CFB !important;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+.seconddiv img {
+    height: auto;
+    position: relative;
+  }
+.bulb{
+    color:#F06C7A;
+    position: absolute;
+    border-radius: 5rem;
+    background-color: #FCE2E4;
+    margin-top: 150px;
+    margin-left: -20px;
+}
+.twitter{
+    position:absolute;
+    border-radius: 5rem;
+    background-color: #F06C7A;
+    margin-top: 300px;
+    margin-left: 500px;
+}
+.insta{
+    position:absolute;
+    border-radius:5rem;
+    background-color:#3AB094;
+    padding:5px;
+    margin-top:450px;
+    margin-left:-20px;
+}
+.fb{
+    color:white;
+    position:absolute;
+    border-radius :5rem;
+    background-color:blue;
+    padding:5px;
+    margin-top:580px;
+    margin-left:50px;
+}
+.circle{
+    color:pink ;
+    position:absolute;
+    margin-left:320px;
+    margin-top:60px;
+}
+.speaker{
+    color:#3AB094 ;
+    position:absolute;
+    margin-left:460px;
+    margin-top:480px;
+    border-radius:5rem;
+    background-color:#D8EFEA
+} 
+
+/* Media Query */
+
+@media only screen and (max-width: 374px) {
+  .firstdiv{
+    margin: 0 auto;
+    /* width: 70%; */
+  }
+  .herobtn{
+    /* width: 37% !important; */
+  }
+  .seconddiv img  {
+    width: 100%;
+  }
+  .seconddiv {
+    margin: 0 auto;
+    width: 65% !important;
+    margin-bottom: 10px;
+  }
+  .seconddiv .bulb{
+    width: 5%;
+    height: 20px;
+    margin-left: 1px;
+    margin-top: 70px;
+  }
+    .seconddiv .circle{
+     width: 15%;
+     height: 40px;
+     margin-left: 170px;
+     margin-top: 30px;
+   }
+   .seconddiv .twitter{
+     width: 4%;
+     height: 15px;
+     margin-left: 220px;
+     margin-top: 130px;
+   }
+   .seconddiv .icon{
+     width: 4%;
+     height: 15px;
+     padding: 0;
+   }
+   .seconddiv .fb{
+       margin-top: 220px;
+       margin-left: 30px;
+   }
+   .seconddiv .insta{
+       margin-top: 190px;
+       margin-left: 1px;  
+   }
+   .seconddiv .speaker{
+     width: 5%;
+     height: 20px;
+     margin-top: 180px;
+     margin-left: 200px;
+ }
+}
+@media only screen and (min-width:375px) and (max-width:424px) {
+  .firstdiv{
+    /* margin: 0 auto; */
+    /* width: 70%; */
+    margin-top: 0px;
+  }
+  .herobtn{
+    width: 37% !important;
+  }
+  .seconddiv img  {
+    width: 100%;
+  }
+  .seconddiv {
+    margin: 0 auto;
+    width: 50% !important;
+    margin-bottom: 10px;
+  }
+  .seconddiv .bulb{
+    width: 3%;
+    height: 10px;
+    margin-left: 1px;
+    margin-top: 70px;
+  }
+    .seconddiv .circle{
+     width: 15%;
+     height: 30px;
+     margin-left: 140px;
+     margin-top: 30px;
+   }
+   .seconddiv .twitter{
+     width: 3%;
+     height: 10px;
+     margin-left: 180px;
+     margin-top: 130px;
+   }
+   .seconddiv .icon{
+     width: 3%;
+     height: 10px;
+     padding: 0;
+   }
+   .seconddiv .fb{
+       margin-top: 210px;
+       margin-left: 25px;
+   }
+   .seconddiv .insta{
+       margin-top: 170px;
+       margin-left: 0px;  
+   }
+   .seconddiv .speaker{
+     width: 4%;
+     height: 15px;
+     margin-top: 170px;
+     margin-left: 180px;
+ }
+}
+
+@media only screen  and (min-width:425px) and (max-width: 767px) {
+  .firstdiv{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    width: 95%;
+  }
+  .herobtn{
+    /* width: 40% !important; */
+    /* font-size: 20px; */
+    /* height: 60px; */
+  }
+  .seconddiv img  {
+    width: 100% !important;
+  }
+  .seconddiv {
+    margin: 0 auto;
+    width: 60% !important;
+  }
+  .seconddiv .bulb{
+    width: 7%;
+    height: 25px;
+    margin-left: 0px;
+    margin-top: 70px;
+  }
+    .seconddiv .circle{
+     height: 60px;
+     margin-left: 190px;
+     margin-top: 30px;
+   }
+   .seconddiv .twitter{
+     width: 5%;
+     height: 25px;
+     margin-left: 300px;
+     margin-top: 160px;
+   }
+   .seconddiv .icon{
+     width: 6%;
+     height: 28px;
+   }
+   .seconddiv .fb{
+       margin-top: 320px;
+       margin-left: 40px;
+   }
+   .seconddiv .insta{
+       margin-top: 250px;
+       margin-left: 0px;  
+   }
+   .seconddiv .speaker{
+     width: 8%;
+     height: 30px;
+     margin-top: 260px;
+     margin-left: 280px;
+ }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .firstdiv {
+    margin-top: 10px;
+  }
+  .herobtn{
+   width: 30% !important;
+  }
+  .seconddiv{
+    width: 80% !important;
+  }
+  .seconddiv img{
+    width: 100%;
+  }
+  .seconddiv .bulb {
+    width: 4%;
+    height: 30px;
+    margin-top: 50px;
+    margin-left: 0px;
+  }
+  .seconddiv .circle {
+     height: 60px;
+     margin-top: 30px;
+     margin-left: 200px !important;
+   }
+   .seconddiv .twitter {
+     width: 3%;
+     height: 20px;
+     margin-top: 200px;
+     margin-left: 300px;
+   }
+   .seconddiv .icon {
+     width: 3%;
+     height: 20px;
+     margin-top: 130px;
+     margin-left: 230px;
+   }
+   .seconddiv .fb{
+     
+       margin-left: 30px;
+       margin-top: 330px;
+   }
+   .seconddiv .insta{
+       margin-left: -20px;
+       margin-top: 250px;
+   }
+   .seconddiv .speaker{
+       width: 3%;
+       height: 20px;
+       margin-top: 280px;
+       margin-left: 310px;
+   }
+}
+@media only screen and (min-width: 1024px) and (max-width:1439px){
+  .herobtn{
+    width: 20%;
+  }
+  .firstdiv{
+    margin-left: 100px;
+  }
+  .seconddiv{
+    width: 60% !important;
+  }
+  .seconddiv img {
+    width: auto;
+    margin-left: -50px;
+  }
+  .seconddiv .twitter{
+    margin-left: 430px;
+  }
+  .seconddiv .speaker{
+    width: 4%;
+  }
+}
+@media only screen and (min-width: 1440px) and (max-width:2559px) {
+  .herobtn{
+    width: 20%;
+  }
+  .seconddiv{
+    width: 60% !important ;
+  }
+  .seconddiv img {
+    width: auto;
+    margin-left: -50px;
+  }
+  .seconddiv .twitter{
+    margin-left: 430px;
+  }
+  .seconddiv .circle{
+    margin-left: 200px !important;
+    height: 120px !important;
+    width: 30%;
+  }
+}
+@media only screen and (min-width: 2560px) {
+  .herobtn{
+    width: 20%;
+  }
+  .seconddiv{
+    width: 30% !important ;
+  }
+  .seconddiv img {
+    width: auto;
+    margin-left: -50px;
+  }
+  .seconddiv .twitter{
+    margin-left: 430px;
+  }
+  .seconddiv .circle{
+    margin-left: 200px !important;
+    height: 120px !important;
+    width: 30%;
+  }
+}
+

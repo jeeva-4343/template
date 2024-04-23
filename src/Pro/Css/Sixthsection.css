@@ -1,0 +1,140 @@
+.container6{
+   background-color: #F1EEFF;
+   padding-top: 60px;
+}
+.Seventhsvg{
+    padding: 0px;
+    margin-right: -8px;
+    margin-left: -8px;
+}
+.reviewrow{
+    justify-content: center;
+}
+.hedrow{
+    margin-bottom: 60px;
+    text-align: center;
+}
+.linediv{
+    height: 5px;
+}
+.stardiv img{
+    width: 100px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+}
+.quote{
+    position: absolute;
+    color: red;
+    border-radius: 3rem;
+    padding: 5px;
+    margin-top: -15px;
+    margin-left: 265px;
+    background-color: white;
+}
+.para{
+    line-height: 25px;
+    font-size: large;
+    color: rgb(163, 157, 157);
+}
+.smallimg{
+    border-radius: 10rem;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.nameplace{
+    text-align: start;
+    justify-content: start;
+}
+.nameplace2{
+    /* justify-content: center; */
+    margin: 0 auto;
+}
+.smallimg img{
+    height: 60px;
+    border-radius: 2.5rem;
+   margin-left: 4px;
+}
+.reviewdiv{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    background-color: white;
+}
+
+
+@media (max-width:320px){
+    .quote{
+        margin-left: 230px;
+    }
+    .smallimg{
+        width: 21%;
+    }
+    .nameplace{
+        text-align: center;
+        justify-content: center;
+    }
+    .nameplace2{
+        justify-content: center;
+    }
+}
+@media (min-width:375px) and (max-width:425px){
+    .smallimg{
+        width:18%;
+    }
+    .quote{
+        margin-left: 310px;
+    }
+    .nameplace{
+        text-align: center;
+        justify-content: center;
+    }
+    .nameplace2{
+        justify-content: center;
+    }
+}
+@media (min-width:426px) and (max-width:1023px)
+{
+    .smallimg{
+        width:12%;
+    }
+    .quote{
+        margin-left: 360px;
+    }
+    .nameplace{
+        text-align: center;
+        justify-content: center;
+    }
+    .nameplace2{
+        justify-content: center;
+    }
+    .reviewcol{
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-bottom: 20px;
+    }
+}
+@media (min-width:1024px) and (max-width:1400px)
+{
+    .smallimg{
+        width: auto;
+    }
+    .smallimg img{
+        height: 40px;
+    }
+    .para{
+        height: 230px;
+    }
+    .quote{
+        margin-left: 170px;
+    }
+    .last-rw{
+        margin-top: 50px;
+    }
+    .nameplace{
+        font-size: small !important;
+    }
+    .Sec-6-name{
+        font-size: x-large !important;
+    }
+}

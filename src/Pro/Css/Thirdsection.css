@@ -1,0 +1,94 @@
+.Clientcontainer{
+    background-color: #793CFB;
+    color: white;
+    padding-top: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.clientcol img{
+    position: relative;
+    margin: 0 auto;
+}
+.Clientrow{
+    margin-right: 0px;
+}
+.clientcol{
+    display: flex;
+    height: 90px;
+    padding: 30px;
+    border-radius: 5rem !important;
+    background-color: rgb(123, 123, 226);
+    margin: 10px;
+    margin-right: 0px;
+}
+.huawei{
+    height: 90px;
+    padding: 15px;
+}
+.slack{
+    height: 90px;
+    padding: 25px;
+}
+.allergan{
+    height: 90px;
+    padding: 10px;
+}
+.ripple{
+    height: 90px;
+    padding: 20px;
+}
+.airbnb{
+    padding: 25px;
+}
+.hubspot{
+    padding: 25px;
+}
+.clientcol:hover{
+    background-color:white;
+    color: #793CFB;
+    .clientcol img{
+        color: #793CFB;
+    }
+    .old{
+        display: none;
+    }
+    .blue{
+        display: block;
+    }
+ 
+    .spotify{
+        height: 300px !important;
+        padding: 0px !important;
+    }
+    .riiple{
+        height: 20px !important;
+        padding: 40px;
+    }
+}
+.allergan:hover{
+    padding: 30px;
+    height: 90px ;
+}
+.ripple:hover{
+    padding: 30px;
+}
+.cvs:hover{
+    padding: 10px;
+}
+.dropbox:hover{
+    padding: 20px;
+}
+.spotify:hover{
+    padding: 15px;
+}
+.microsoft:hover{
+    padding: 25px;
+}
+.hubspot:hover{
+    padding: 30px;
+}
+.blue{
+    position: absolute;
+    display: none;
+}
+
